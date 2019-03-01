@@ -1,0 +1,872 @@
+/*
+* PHIL - Signature Edition | Premium Web Template from Designova
+* Build: Sep 2015;
+* Author: Designova, http://www.designova.net
+* Copyright (C) 2015 Designova
+* This is a premium product. For licensing queries please contact info@designova.net
+*/
+
+
+/* Table of contents
+–––––––––––––––––––––––––––––––––––––––––––––––––– 
+- 1. Common
+- 2. Preloader
+- 3. Header
+- 4. Footer
+- 5. Navigation
+- 6. Pages
+- 7. Utilities
+- 8. Background Images (Set your BG images here)
+- 9. Media Queries (Mobile Specific Styles)
+*/
+
+
+/* 1. Common
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html, body{
+  overflow-x: hidden;
+}
+body{
+  border-left: solid 100px #fff; 
+  border-right: solid 100px #fff; 
+}
+p{
+  font-size: 13px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+h1,h2,h3,h4,h5,h6{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+a{
+  text-decoration:none !important;
+}
+a:focus { 
+      outline: none; 
+}
+.promo-heading{
+  font-size: 24px;
+  line-height: 31px;
+}
+.sub-heading{
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px;
+  padding-bottom: 8px;
+}
+
+/* 2. Preloader
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body.preloader-running{ 
+  overflow: hidden; 
+}
+
+div#preloader.signature-phil { 
+  background: none repeat scroll 0 0 white; 
+  height: 100%; 
+  left: 0; 
+  position: fixed;
+  top: 0px; 
+  width: 100%; 
+  z-index: 99999; 
+}
+
+#status { 
+  width: 200px; 
+  height: 200px; 
+  position: fixed; 
+  left: 50%; 
+  top: 50%; 
+  background-image: url(../images/loader.gif); 
+  background-size: 100px 100px;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  margin: -100px 0 0 -100px; 
+}
+
+/* 3. Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+header.masthead.signature-phil{
+  padding: 80px 0;
+}
+.logo{
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+/* 4. Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer.mastfoot.signature-phil{
+  overflow: hidden;
+  padding: 80px 0;
+}
+.social-icons{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.social-icons li{
+  display: inline-block;
+  margin: 0 5px;
+}
+.social-icons li a span{
+  font-size: 24px;
+            -webkit-transition: all .4s linear;
+               -moz-transition: all .4s linear;
+                -ms-transition: all .4s linear;
+                 -o-transition: all .4s linear;
+                    transition: all .4s linear;
+}
+.social-icons li a:hover span{
+  font-size: 24px;
+            -webkit-transition: all .4s linear;
+               -moz-transition: all .4s linear;
+                -ms-transition: all .4s linear;
+                 -o-transition: all .4s linear;
+                    transition: all .4s linear;
+}
+.credits p{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+/* 5. Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+nav.mastnav.signature-phil{
+  border-top: solid 2px #121212;
+  margin-top: 25px;
+  padding-top: 20px;
+}
+.navigation ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+.navigation ul li{
+  display: inline-block;
+  margin: 0 5px;
+}
+.navigation a{
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.navigation a, .navigation a:hover{
+            -webkit-transition: all .4s linear;
+               -moz-transition: all .4s linear;
+                -ms-transition: all .4s linear;
+                 -o-transition: all .4s linear;
+                    transition: all .4s linear;
+}
+
+/* 6. Pages
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+section.mastwrap.signature-phil{
+  overflow: hidden;
+}
+/*INTRO*/
+.niceGallery{
+  min-height: 300px;
+}
+.niceGallery-preloader{
+  z-index: -1;
+  width: 200px; 
+  height: 200px; 
+  position: fixed; 
+  left: 50%; 
+  top: 50%; 
+  background-image: url(../images/loader.gif); 
+  background-size: 100px 100px;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  margin: -100px 0 0 -100px; 
+}
+.intro.signature-phil{
+  margin-top: -120px;
+}
+.intro-carousel, .intro-carousel.signature-phil .item, .intro-carousel.signature-phil img{
+  height: 500px;
+}
+.owl-controls{
+  cursor: pointer;
+}
+.album-info{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 40px;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+}
+.album-info h3{
+  opacity: 0;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+}
+.album-info h6{
+  opacity: 0;
+  font-size: 16px;
+  line-height: 23px;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+}
+.album-info:hover h3, .album-info:hover h6{
+  opacity: 1;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+}
+        .album-view:hover{
+            cursor: url("../images/view.png") 40 40, crosshair;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+        }
+
+/*ABOUT*/
+.profile-pic{
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.content-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.content-list li{
+  margin-bottom: 5px;
+}
+.content-list li span{
+  border-bottom: solid 1px;
+  font-size: 13px;
+  line-height: 22px;
+}
+.clients{
+  margin-top: 15px;
+}
+.common-main-heading.signature-phil{    
+    font-size: 22px;
+    letter-spacing: 16px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.common-main-heading.signature-phil > span{
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.common-sub-heading{
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+.common-sub-heading-big{
+  font-size: 64px;
+  line-height: 78px;
+  margin-bottom: 20px;
+}
+
+/*WORKS*/
+
+.works-filter-panel.signature-phil{
+display: none;
+  width: 300px;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 80px;
+}
+.works-filter-wrap{
+}
+.filter-notification.signature-phil{
+    margin-left: 10px;
+}
+.filter-notification.signature-phil{
+    font-size: 14px;
+}
+.works-filter.signature-phil{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.works-filter.signature-phil li{
+  display: block;
+  margin-bottom: 5px;
+}
+.works-filter.signature-phil li a{
+  font-size: 14px;
+  line-height: 21px;
+}
+.works-container.signature-phil{
+    padding: 0;
+  margin: 70px auto 0 auto;
+  overflow: hidden;
+}
+.works-filter.signature-phil li:last-child:after{
+    display: none;
+}
+
+ .works-item.signature-phil{
+  overflow: hidden;
+ }
+ .works-item.signature-phil a{
+  background-color:rgba(0,0,0,0.4);
+            opacity: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            z-index: 100;
+            text-align: center;
+            text-decoration: none !important;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+        }
+    .works-item.signature-phil a:hover{
+            text-decoration: none !important;
+            opacity:1;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+        }
+        .info a:hover{
+            cursor: url("../images/plus.png") 40 40, crosshair;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+        }
+        .zoom a:hover{
+            cursor: url("../images/zoom.png") 40 40, crosshair;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+        }
+        .works-item-inner{
+            text-align: left;
+            padding: 0 100px;
+        }
+        .works-thumbnails-view{
+          margin-top: 40px;
+        }
+        .works-thumbnails-view .works-item-inner{
+            text-align: left;
+            padding: 40px;
+        }
+        .works-thumbnails-view .works-item-inner p > span {
+            font-size: 14px;
+            letter-spacing: 4px;
+            line-height: 21px;
+            margin-top: 0;
+            border-bottom: solid 5px;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+        }
+        .works-item-inner h3 > span{ 
+            font-size: 12px;
+            letter-spacing: normal;
+            line-height: 19px;
+            text-transform: none;
+            margin-bottom: 5px;
+            border-bottom: solid 2px;
+            font-weight: 200;
+        }
+        .works-item-inner p > span{  
+            font-size: 14px;
+            line-height: 25px;
+            letter-spacing: 8px;
+            margin-top: 0px;
+            text-transform: uppercase;
+        }
+        .works-item.signature-phil a:hover 
+        .works-item-inner h3{ 
+        }
+        .works-item.signature-phil a:hover 
+        .works-item-inner p{  
+        }
+
+.works-item-fade{
+  opacity: 0.1;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+}
+
+.works-item-fade a{
+  display: none !important;
+}
+.works-masonry-container{
+    padding: 0;
+  margin:0px !important;
+}
+.works-masonry-container .works-item-one-third {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 33.3% !important;
+}
+.works-masonry-container .works-item-two-third {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 66.6% !important;
+}
+.works-masonry-container .works-item-one-half {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 50% !important;
+}
+.works-masonry-container .works-item-one-fourth {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 25% !important;
+}
+.works-masonry-container .works-item-full-width {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+.works-masonry-container .works-item-one-third-spaced{
+  margin: 1% !important;
+  padding: 0 !important;
+  width: 31.3% !important;
+}
+.works-masonry-container .works-item-one-half-spaced{
+  margin: 1% !important;
+  padding: 0 !important;
+  width: 48% !important;
+}
+.works-masonry-container .works-item-two-third-spaced{
+  margin: 1% !important;
+  padding: 0 !important;
+  width: 64.6% !important;
+}
+.works-masonry-container .works-item-one-fourth-spaced{
+  margin: 1% !important;
+  padding: 0 !important;
+  width: 23% !important;
+}
+
+
+/* 6. Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Portfolio Isotope Transitions */ 
+
+.isotope, .isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+/*NEWS*/
+.news-date{
+  font-size: 48px;
+  line-height: 55px;
+  margin-bottom: 10px;
+}
+.news-date > span{
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.news-heading{
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  border-top: solid 2px;
+  padding-top: 15px;
+}
+.news-heading-big{
+  font-size: 64px;
+  line-height: 78px;
+  margin-bottom: 20px;
+  border-top: solid 4px;
+  padding-top: 15px;
+}
+/*WORKS*/
+.work-collection-title{
+  font-size: 32px;
+  line-height: 39px;
+}
+.intro-carousel.signature-phil .item{
+  background-color: #000;
+}
+/*PROJECT*/
+.project-navigation{
+  list-style: none;
+  padding: 0;
+}
+.project-navigation li{
+  display: inline-block;
+}
+.project-navigation li a{
+  font-size: 22px;
+  line-height: 29px;
+}
+.project-navigation li:after{
+  content: ' / ';
+  font-size: 22px;
+  line-height: 29px;
+}
+.project-navigation li:last-child:after{
+  display: none;
+}
+
+/* 7. Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*Buttons*/
+.btn-signature{
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+}
+.btn-signature-big{
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+}
+.btn-signature:hover{
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+}
+.btn-signature-white{
+  border:solid 2px #fff;
+  background: transparent;
+  color: #fff;
+}
+.btn-signature-white:hover{
+  border:solid 2px #fff;
+  background: #fff;
+  color: #000;
+}
+
+.btn-signature-dark{
+  border:solid 2px #000;
+  background: transparent;
+  color: #000;
+}
+.btn-signature-dark:hover{
+  border:solid 2px #000;
+  background: #000;
+  color: #fff;
+}
+
+.btn-signature-color{
+  border:solid 2px;
+  background: transparent;
+}
+.btn-signature-color:hover{
+  border:solid 2px;
+  color: #fff;
+}
+.add-top{
+    margin-top: 80px;
+}
+.add-bottom{
+    margin-bottom: 80px;
+}
+.add-top-half{
+    margin-top: 40px;
+}
+.add-bottom-half{
+    margin-bottom: 40px;
+}
+.add-top-quarter{
+    margin-top: 20px;
+}
+.add-bottom-quarter{
+    margin-bottom: 20px;
+}
+.pad-top{
+    padding-top: 80px;
+}
+.pad-bottom{
+    padding-bottom: 80px;
+}
+.pad-top-half{
+    padding-top: 40px;
+}
+.pad-bottom-half{
+    padding-bottom: 40px;
+}
+.pad-top-quarter{
+    padding-top: 20px;
+}
+.pad-bottom-quarter{
+    padding-bottom: 20px;
+}
+.ease{
+            -webkit-transition: all .4s linear;
+               -moz-transition: all .4s linear;
+                -ms-transition: all .4s linear;
+                 -o-transition: all .4s linear;
+                    transition: all .4s linear;
+}
+.ease:hover{
+            -webkit-transition: all .4s linear;
+               -moz-transition: all .4s linear;
+                -ms-transition: all .4s linear;
+                 -o-transition: all .4s linear;
+                    transition: all .4s linear;
+}
+.no-pad{
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-bottom: 0 !important;
+  padding-right: 0 !important;
+}
+.valign{
+  position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.img-bg{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.parallax{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+/*this class will be activated on mobile devices in order to switch off the parallax effect*/
+.parallax-off {
+  background-attachment:scroll !important;
+  background-size:cover !important;
+}
+
+.poster-img{
+  background:url(../images/poster.jpg) center center no-repeat !important;
+  background-size: cover !important;
+}
+
+
+/*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*LESS Compiled to CSS for preview purposes only 
+(Please read PDF guide to manage colors via LESS with just a single line of code editing)*/
+/*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.color {
+  color: #fe2420;
+}
+.white {
+  color: #ffffff;
+}
+.silver {
+  color: #f1f1ef;
+}
+.grey {
+  color: #cccccc;
+}
+.dark {
+  color: #292929;
+}
+.black {
+  color: #121212;
+}
+.color-bg {
+  background-color: #fe2420;
+}
+.white-bg {
+  background-color: #ffffff;
+}
+.silver-bg {
+  background-color: #f1f1ef;
+}
+.grey-bg {
+  background-color: #cccccc;
+}
+.dark-bg {
+  background-color: #292929;
+}
+.black-bg {
+  background-color: #121212;
+}
+a {
+  color: #121212;
+}
+a:hover {
+  color: #fe2420;
+}
+::selection {
+  background: #fe2420;
+  color: #292929;
+}
+::-moz-selection {
+  background: #fe2420;
+  color: #292929;
+}
+body,
+p {
+  color: #292929;
+}
+.masthead.signature-phil .container {
+  border-color: #292929;
+}
+.navigation a {
+  color: #292929;
+}
+.navigation a:hover,
+.social-icons li a:hover span {
+  color: #fe2420;
+}
+.content-list li span {
+  border-color: #cccccc;
+}
+#nav-trigger span:hover {
+  background-color: #fe2420;
+}
+nav#nav-mobile ul {
+  background-color: #292929;
+}
+nav#nav-mobile a:hover {
+  background-color: #fe2420;
+}
+.works-thumbnails-view .works-item-inner p > span {
+  border-color: #ffffff;
+}
+.news-heading,
+.news-heading-big {
+  border-color: #f1f1ef;
+}
+.font1 {
+  font-family: 'Open Sans', sans-serif;
+}
+.font2 {
+  font-family: 'Montserrat', sans-serif;
+}
+.font3 {
+  font-family: 'Raleway', sans-serif;
+}
+.font4 {
+  font-family: 'designova_hgr_regular', sans-serif;
+}
+.font4thin {
+  font-family: 'designova_hgr_thin', sans-serif;
+}
+.font4light {
+  font-family: 'designova_hgr_light', sans-serif;
+}
+.font4bold {
+  font-family: 'designova_hgr_bold', sans-serif;
+}
+.font4black {
+  font-family: 'designova_hgr_black', sans-serif;
+}
+body,
+p {
+  font-family: 'Raleway', sans-serif;
+}
+nav#nav-mobile a {
+  font-family: 'designova_hgr_light', sans-serif;
+}
+.niceGallery ul.entries-columns li h4,
+.viewbox .panel .number,
+.viewbox .panel h3 {
+  font-family: 'designova_hgr_regular', sans-serif;
+}
+.niceGallery ul.entries-columns li a .show {
+  font-family: 'Montserrat', sans-serif;
+}
+.viewbox .details h2 {
+  font-family: 'designova_hgr_bold', sans-serif;
+}
+

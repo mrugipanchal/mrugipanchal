@@ -1,0 +1,68 @@
+
+/*Mobile Nav Styles*/
+#nav-trigger {
+  display: none;
+  text-align: center; }
+  #nav-trigger span {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase; }
+    #nav-trigger span:after {
+      display: inline-block;
+      margin-left: 10px;
+      width: 20px;
+      height: 10px;
+      content: "";
+      border-left: solid 10px transparent;
+      border-top: solid 10px #fff;
+      border-right: solid 10px transparent; }
+    #nav-trigger span.open:after {
+      border-left: solid 10px transparent;
+      border-top: none;
+      border-bottom: solid 10px #fff;
+      border-right: solid 10px transparent; }
+
+nav { }
+nav#nav-mobile {
+  z-index: 1000;
+  position: relative;
+  display: none; }
+  nav#nav-mobile ul {
+    padding: 0;
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+  }
+  nav#nav-mobile li {
+    text-align: left;
+    display: block;
+    padding: 2px 0;
+    margin: 0 5px;
+    border-top: solid 1px #222; 
+  }
+    nav#nav-mobile li:last-child {
+      border-bottom: none; }
+  nav#nav-mobile a {
+    display: block;
+    color: white;
+    padding: 10px 20px; }
+    nav#nav-mobile a:hover {
+      color: #fff; }
+
+@media all and (max-width: 992px) {
+  #nav-trigger {
+    display: block; }
+
+  nav#nav-main {
+    display: none; }
+
+  nav#nav-mobile {
+    display: block; } }
