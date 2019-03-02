@@ -30,6 +30,9 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="stylesheets/owl.carousel.css">
+  <link rel="stylesheet" href="stylesheets/owl.carousel.theme.css">
+  <link rel="stylesheet" href="stylesheets/flickergallery.css">
   <link rel="stylesheet" href="stylesheets/mobilenav.css">
   <link rel="stylesheet" href="stylesheets/sinister.css">
   <link rel="stylesheet" href="stylesheets/slimmenu.css">
@@ -59,9 +62,10 @@
 <!-- mobile only navigation : starts -->
 <nav class="mobile-nav signature-phil">
             <ul class="slimmenu">
-              <li><a href="index.html">Weeks</a></li>
+              
                         <li><a href="about.html">About</a></li>
-                        <li><a href="news.html">Blog</a></li>
+                        <li><a href="news.html">Weeks</a></li>
+              
             </ul>
 </nav>
 <!-- mobile only navigation : ends -->
@@ -83,9 +87,10 @@
                 </div>
                 <nav id="nav-main" class="mastnav signature-phil navigation dark font4">
                     <ul>
-                        <li><a href="index.html">Weeks</a></li>
+                        
                         <li><a href="about.html">About</a></li>
-                        <li><a href="news.html">Blog</a></li>
+                        <li><a href="news.html">Weeks</a></li>
+                        
                     </ul>
                 </nav>
                 <nav id="nav-mobile"></nav>
@@ -97,74 +102,22 @@
 
   <!-- MASTER CONTENT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <section class="mastwrap signature-phil add-top-half">
-
-<div class="container">
-        <div class="row">
-            <article class="col-md-8 text-left">
-
-              <div class="news-list-item signature-phil">
-                <h2 class="news-date font4thin">Week 1 <span class="font4">Web Devlopment</span></h2>
-                <h1 class="news-heading-big dark font2">I tried to design the most wonderful website.</h1>
-                <img alt="" title="" class="img-responsive" src="images/news/web.gif"/>
-                <h4>what is Web-Development</h4>h4>
-                <p class="dark add-top-quarter add-bottom-quarter">What is Web Devlopment? )<br/><br/>Web development is the work involved in developing a web site for the Internet or an intranet. It can range from developing a simple single static page of plain text to complex web-based internet applications (web apps), electronic businesses, and social network services.<br/><br/> Which template you used? from where? how many template you tried? with links ( Nullam non diam lacinia, pharetra neque sed, cursus tellus. Curabitur sagittis metus mi, blandit laoreet diam consequat ut. Nam justo mauris, hendrerit at magna eu, tempor tristique magna. Nulla sed egestas augue. Quisque eu magna arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vel odio pharetra, hendrerit sapien vitae, vulputate neque. Suspendisse mollis sapien massa, et faucibus eros posuere ut. Aenean in felis id lectus vehicula iaculis. Aliquam nisi nisi, porta nec maximus sed, iaculis vel erat. Vestibulum placerat viverra tortor sit amet pellentesque. ) </p>
-                <center>
-                <a class="btn btn-signature btn-signature-phil btn-signature-dark" href="#">Issues i found</a>
-                <a class="btn btn-signature btn-signature-phil btn-signature-dark" href="https://mrugipanchal.github.io/">My web link</a>
-                </center>
-</br>
-</br>
-                <center> <h3 class="news dark font2">process of my web</h3> </center>
+  <section class="mastwrap signature-phil">
 
 
+<div class="content"> 
 
-               </br>
-               </br>
-               </br>
-                <center>
-                <a class="btn btn-signature btn-signature-phil btn-signature-dark" href="news.html">Back</a>
-                <a class="btn btn-signature btn-signature-phil btn-signature-dark" href="week2.html">Next</a>
-                </center>
-              </div>
+<div class="niceGallery-preloader"></div>
 
-            </article>
-            <article class="col-md-4 text-left">
-            </br>
-            </br>
-</br>
-</br>
 
-                <h4 class="sub-heading signature-phil dark silver-bg  font4bold">About Week 1</h4>
-                <p class="dark add-top-quarter add-bottom-quarter">Short description about week 1 come here</p>
-                <h4 class="sub-heading signature-phil dark silver-bg  font4bold add-top-half">Tools</h4>
-                <ul class="content-list add-top-quarter">
-                  <li><span>Github</span></li>
-                  <li><span>Sublime Text 3</span></li>
-                  <li><span>xyz</span></li>
-                </ul>
-                <h4 class="sub-heading signature-phil dark silver-bg  font4bold add-top-half">Templates</h4>
-                <ul class="content-list add-top-quarter">
-                  <li><span>2015 February</span></li>
-                  <li><span>2015 January</span></li>
-                  <li><span>2014 December</span></li>
-                </ul>
+  <!-- gallery STRUCTURE -->
+  <div class="niceGallery" id="gallery">
+        <!-- HERE IS PLACE FOR PHOTOS -->
+  </div>
+  <!-- end gallery STRUCTURE --> 
 
-                <h4 class="sub-heading signature-phil dark silver-bg  font4bold add-top-half">Programming Language</h4>
-                <ul class="content-list add-top-quarter">
-                  <li><span>2015 February</span></li>
-                  <li><span>2015 January</span></li>
-                  <li><span>2014 December</span></li>
-                </ul>
 
-              </br>
-              </br>
-
-                <h4 class="sub-heading signature-phil dark silver-bg  font4bold">I Learn</h4>
-                <p class="dark add-top-quarter add-bottom-quarter">Short description about what you learn</p>
-            </article>
-        </div>
-    </div>
+</div>
 
 
   </section>
@@ -200,8 +153,31 @@
   <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="javascripts/libs/common.js"></script>
+  <script src="javascripts/libs/jquery-ui.min.js"></script>
   <script src="javascripts/libs/bootstrap.min.js"></script>
+  <script src="javascripts/libs/FlickrAPI.js"></script>
+  <script src="javascripts/libs/Flickr.Gallery.min.js"></script>
   <script src="javascripts/custom/main.js"></script>
+  <script>
 
+$(document).ready(function (){ 
+  $("#gallery").flickrGallery({
+            //FLICKR API KEY
+            Key: 'dd7e89c7f0c07a951c30b34d7a013486',
+            //Secret
+            Secret: 'd792124bcd9f09bb',
+            //FLICKR user ID
+            User: '130110901@N08',
+            //Flickr PhotoSet ID
+            PhotoSet: '72157628042948461',
+            /*-- VIEWBOX SETTINGS --*/ 
+            Speed   : 400,    //Speed of animations
+            navigation  : 1,    //(true) Navigation (arrows)
+            keyboard  : 1,    //(true) Keyboard navigation 
+            numberEl  : 1     //(true) Number elements
+  });
+}); 
+
+  </script>
 </body>
 </html>

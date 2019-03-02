@@ -30,9 +30,6 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="stylesheets/bootstrap.css">
-  <link rel="stylesheet" href="stylesheets/owl.carousel.css">
-  <link rel="stylesheet" href="stylesheets/owl.carousel.theme.css">
-  <link rel="stylesheet" href="stylesheets/flickergallery.css">
   <link rel="stylesheet" href="stylesheets/mobilenav.css">
   <link rel="stylesheet" href="stylesheets/sinister.css">
   <link rel="stylesheet" href="stylesheets/slimmenu.css">
@@ -62,10 +59,9 @@
 <!-- mobile only navigation : starts -->
 <nav class="mobile-nav signature-phil">
             <ul class="slimmenu">
-              <li><a href="index.html">Weeks</a></li>
+             
                         <li><a href="about.html">About</a></li>
-                        <li><a href="news.html">Blog</a></li>
-              
+                        <li><a href="news.html">Weeks</a></li> 
             </ul>
 </nav>
 <!-- mobile only navigation : ends -->
@@ -87,10 +83,8 @@
                 </div>
                 <nav id="nav-main" class="mastnav signature-phil navigation dark font4">
                     <ul>
-                        <li><a href="index.html">Weeks</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="news.html">Blog</a></li>
-                        
+                       <li><a href="about.html">About</a></li>
+                        <li><a href="news.html">Weeks</a></li>
                     </ul>
                 </nav>
                 <nav id="nav-mobile"></nav>
@@ -102,25 +96,52 @@
 
   <!-- MASTER CONTENT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <section class="mastwrap signature-phil">
+  <section class="mastwrap signature-phil add-top-half">
+
+    <div class="container">
+        <div class="row add-bottom-half">
+            <article class="col-md-8 col-md-offset-2 text-center">
+                <img alt="" title="" class="img-responsive profile-pic" src="images/about/unnamed.jpg"/>
+                <h2 class="common-main-heading signature-phil black font4 add-top-half">I am Mrugi Panchal, a young Designer from India</h2>
+                <h4 class="common-sub-heading signature-phil grey font4 add-top-half">I am passionate about anything related to Design, and I live for capturing best moments in everyday life. Hope you will enjoy my documentaion.</h4>
+              </br>
+              </br>
+<center>
+                <a class="btn btn-signature btn-signature-phil btn-signature-dark" href="week8.html">Resume</a>
+&nbsp;&nbsp;&nbsp;&nbsp;👧&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="btn btn-signature btn-signature-phil btn-signature-dark" href="https://mrugipanchal.github.io/">Website</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;⌛&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="btn btn-signature btn-signature-phil btn-signature-dark" href="Final.html">Final Project</a>
+                </center>
+            </article>
+        </div>
+    </div>
 
 
-<div class="content"> 
-
-<div class="niceGallery-preloader"></div>
-
-
-  <!-- gallery STRUCTURE -->
-  <div class="niceGallery" id="gallery">
-        <!-- HERE IS PLACE FOR PHOTOS -->
-  </div>
-  <!-- end gallery STRUCTURE --> 
-
-
-</div>
 
 
   </section>
+
+
+  <section class="add-top">
+    
+    <div class="container">
+        
+
+         <section id="works-container" class="works-container signature-phil works-masonry-container clearfix white-bg works-thumbnails-view">
+
+
+             
+
+
+
+            </section>
+            <!-- end : works-container -->
+
+
+    </div>
+
+
   <!-- end : mastwrap -->
 
 
@@ -153,31 +174,8 @@
   <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="javascripts/libs/common.js"></script>
-  <script src="javascripts/libs/jquery-ui.min.js"></script>
   <script src="javascripts/libs/bootstrap.min.js"></script>
-  <script src="javascripts/libs/FlickrAPI.js"></script>
-  <script src="javascripts/libs/Flickr.Gallery.min.js"></script>
   <script src="javascripts/custom/main.js"></script>
-  <script>
 
-$(document).ready(function (){ 
-  $("#gallery").flickrGallery({
-            //FLICKR API KEY
-            Key: 'dd7e89c7f0c07a951c30b34d7a013486',
-            //Secret
-            Secret: 'd792124bcd9f09bb',
-            //FLICKR user ID
-            User: '130110901@N08',
-            //Flickr PhotoSet ID
-            PhotoSet: '72157628042948461',
-            /*-- VIEWBOX SETTINGS --*/ 
-            Speed   : 400,    //Speed of animations
-            navigation  : 1,    //(true) Navigation (arrows)
-            keyboard  : 1,    //(true) Keyboard navigation 
-            numberEl  : 1     //(true) Number elements
-  });
-}); 
-
-  </script>
 </body>
 </html>
