@@ -16,7 +16,7 @@ function CreateDiscount(){
     request({
         url: "http://app.snipcart.com/api/discounts",
         auth: {
-            'user': 'YOUR_API_KEY'
+            'user': 'L6I9USW3SJTY5D9V'
         },
         method: "POST",
         json: true,
