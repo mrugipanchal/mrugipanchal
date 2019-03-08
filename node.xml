@@ -1,0 +1,64 @@
+<channel>
+<id type="integer">721393</id>
+<name>flow+nodemcu</name>
+<description>flow with nodemcu</description>
+<latitude type="decimal">0.0</latitude>
+<longitude type="decimal">0.0</longitude>
+<field1>flow rate</field1>
+<field2>nodemcu</field2>
+<created-at type="dateTime">2019-03-06T10:21:59Z</created-at>
+<updated-at type="dateTime">2019-03-08T03:47:18Z</updated-at>
+<last-entry-id type="integer">10</last-entry-id>
+<feeds type="array">
+<feed>
+<created-at type="dateTime">2019-03-06T11:14:05Z</created-at>
+<entry-id type="integer">1</entry-id>
+<field1>0</field1>
+</feed>
+<feed>
+<created-at type="dateTime">2019-03-06T11:16:37Z</created-at>
+<entry-id type="integer">2</entry-id>
+<field1>1/field2=1</field1>
+</feed>
+<feed>
+<created-at type="dateTime">2019-03-06T11:21:39Z</created-at>
+<entry-id type="integer">3</entry-id>
+<field1 nil="true"/>
+</feed>
+<feed>
+<created-at type="dateTime">2019-03-06T17:34:16Z</created-at>
+<entry-id type="integer">4</entry-id>
+<field1>1/field2=1</field1>
+</feed>
+<feed>
+<created-at type="dateTime">2019-03-07T08:39:23Z</created-at>
+<entry-id type="integer">5</entry-id>
+<field1>0</field1>
+</feed>
+<feed>
+<created-at type="dateTime">2019-03-07T08:39:41Z</created-at>
+<entry-id type="integer">6</entry-id>
+<field1>0</field1>
+</feed>
+<feed>
+<created-at type="dateTime">2019-03-07T08:40:07Z</created-at>
+<entry-id type="integer">7</entry-id>
+<field1>0</field1>
+</feed>
+<feed>
+<created-at type="dateTime">2019-03-07T08:53:01Z</created-at>
+<entry-id type="integer">8</entry-id>
+<field1>0</field1>
+</feed>
+<feed>
+<created-at type="dateTime">2019-03-07T08:53:18Z</created-at>
+<entry-id type="integer">9</entry-id>
+<field1>0</field1>
+</feed>
+<feed>
+<created-at type="dateTime">2019-03-07T08:53:34Z</created-at>
+<entry-id type="integer">10</entry-id>
+<field1>0</field1>
+</feed>
+</feeds>
+</channel>
